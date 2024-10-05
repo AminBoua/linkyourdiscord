@@ -1,0 +1,10 @@
+bot-token: "YOUR_DISCORD_BOT_TOKEN"
+guild-id: "YOUR_GUILD_ID"
+role-id: "YOUR_ROLE_ID"
+
+messages:
+  link-message: "Your Discord linking code is: %code%. Please use this code in Discord using the /link command."
+  already-linked: "You have already linked your Discord account!"
+  unlink-success: "&aSuccessfully unlinked and removed the Linked role from @%user%"
+  discord-url-text: "&l&bClick here to join!"
+  discord-url: "https://discord.gg/YOUR_DISCORD_URL"
