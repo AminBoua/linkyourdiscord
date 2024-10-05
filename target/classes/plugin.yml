@@ -1,0 +1,17 @@
+name: LinkYourDiscord
+version: 1.0
+main: com.linkyourdiscord.LinkYourDiscord
+author: AminJuPeter
+description: A plugin to link Minecraft accounts to Discord accounts
+commands:
+  discord:
+    description: Generates a linking code for your Discord account.
+    usage: /discord
+  unlink:
+    description: Unlink a Minecraft account from Discord.
+    usage: /unlink <player>
+    permission: linkyourdiscord.admin
+permissions:
+  linkyourdiscord.admin:
+    description: Allows admin to unlink Discord accounts.
+    default: op
